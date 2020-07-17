@@ -13,6 +13,7 @@ RUN set -ex; \
         apt-get install --no-install-recommends -y \
         \
         unzip \
+        openssh-client \
         git \
         libldap2-dev \
         libjpeg-dev \
