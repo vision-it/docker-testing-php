@@ -12,6 +12,7 @@ RUN set -ex; \
         DEBIAN_FRONTEND=noninteractive \
         apt-get install --no-install-recommends -y \
         \
+        unzip \
         git \
         libldap2-dev \
         libjpeg-dev \
