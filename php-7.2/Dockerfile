@@ -18,6 +18,8 @@ RUN set -ex; \
         libldap2-dev \
         libjpeg-dev \
         libpng-dev \
+        libzip4 \
+        libzip-dev \
         \
         && apt-get -y autoclean; apt-get -y autoremove; \
         rm -rf /var/lib/apt/lists/*
@@ -53,4 +55,5 @@ RUN set -ex; \
         docker-php-ext-install -j5 \
         exif \
         ldap \
+        zip \
         gd
